@@ -1,0 +1,14 @@
+inherit_from: rubocop.yml
+
+Layout/ExtraSpacing:
+  Exclude:
+    - '*.gemspec'
+
+Layout/SpaceAroundOperators:
+  Exclude:
+    - '*.gemspec'
+
+Metrics/BlockLength:
+  Exclude:
+    - '*.gemspec'
+    - 'spec/**/*'
